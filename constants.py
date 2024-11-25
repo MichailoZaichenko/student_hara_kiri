@@ -1,6 +1,6 @@
-introduction_text = '''Student hara-kiri is a project created by 3 students from DNU. It features an ensemble with an accuracy rate of 96%. For more information, visit us on our github page https://github.com/ffeew/GPTGone'''
+introduction_text = '''Student hara-kiri is a project created by 3 students from DNU. It features an ensemble with an accuracy rate of 96%. For more information, visit us on our github page https://github.com/MichailoZaichenko/student_hara_kiri'''
 
-model_2_introduction_text = '''This model is optimized for speed, while sacrificing a little accuracy. It features a SVM with an accuracy rate of 95%. For more information, visit us on our github page https://github.com/ffeew/GPTGone'''
+model_2_introduction_text = '''This model is optimized for speed, while sacrificing a little accuracy. It features a SVM with an accuracy rate of 95%. For more information, visit us on our github page https://github.com/MichailoZaichenko/student_hara_kiri'''
 
 threshold_info = "Adjusting the threshold will change the sensitivity of the model. A threshold of example 0.8 means that the model will label the text as AI-written only if it is 80% confident. By decreasing the threshold, the model will be more sensitive to AI-written texts. On the other hand, increasing the threshold will reduce cases where human-written text is falsely labelled as AI-written as the model is less sensitive."
 
