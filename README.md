@@ -4,7 +4,7 @@ Student hara-kiri is a project created by 3 students from DNU. It features an en
 
 ## Features
 
-GPTGone has 5 main features:
+Student hara-kiri has 5 main features:
 
 1. ChatGPT content detection
 2. Paraphrased ChatGPT content detection
@@ -14,7 +14,7 @@ GPTGone has 5 main features:
 
 ### ChatGPT Content Detection
 
-GPTGone provides a way for users to validate if a piece of text is written by humans or ChatGPT. The web app has 2 variations, “Essay” and “Short-Text”.
+Student hara-kiri provides a way for users to validate if a piece of text is written by humans or ChatGPT. The web app has 2 variations, “Essay” and “Short-Text”.
 
 <p align="center">
   <img src="./images/gptgone_variations.jpg" width="75%" alt="GPTGone Variations"/>
@@ -28,7 +28,7 @@ When using the “Essay” variation, there will be no character limit on the si
 
 ### Paraphrased ChatGPT Content Detection
 
-GPTGone is also capable of detecting ChatGPT-generated content that was paraphrased using a paraphraser like T5. Our model is currently only trained with T5 paraphrased inputs, in the future, we may explore other paraphrasers to bolster the robustness of the model.
+Student hara-kiri is also capable of detecting ChatGPT-generated content that was paraphrased using a paraphraser like T5. Our model is currently only trained with T5 paraphrased inputs, in the future, we may explore other paraphrasers to bolster the robustness of the model.
 
 <p align="center">
   <img src="./images/gptgone_sample_paraphrased_output.jpg" width="85%" alt="GPTGone Sample Paraphrased Output"/>
@@ -59,7 +59,7 @@ prevent bypassers from converting text to the Cyrillic alphabet and bypassing GP
   <img src="./images/gptgone_cyrillic_character_detection.jpg" width="85%" alt="GPTGone Cyrillic Character Detection"/>
 </p>
 
-## How to run GPTGone locally
+## How to run Student hara-kiri locally
 
 Requirement: python version >= 3.9
 
@@ -68,15 +68,15 @@ Requirement: python version >= 3.9
    ```bash
    git lfs install
    ```
-2. Clone the repository from https://huggingface.co/spaces/GPTGone/GPTGone
+2. Clone the repository from https://github.com/MichailoZaichenko/student_hara_kiri
 
    ```bash
-   git clone https://huggingface.co/spaces/GPTGone/GPTGone
+   git clone https://github.com/MichailoZaichenko/student_hara_kiri
    ```
-3. Change your directory into GPTGone using:
+3. Change your directory into Student hara-kiriGPTGon using:
 
    ```bash
-   cd GPTGone
+   cd Student hara-kiri
    ```
 4. Create a new virtual environment at the root of the project directory.
 

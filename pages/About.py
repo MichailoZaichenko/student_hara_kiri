@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("About GPTGone")
+st.title("About Student hara-kiri")
 st.markdown(
     """## Overview of Model Building Process
 The dataset used for training was the ELI5 HC3 dataset, which can be found https://huggingface.co/datasets/Hello-SimpleAI/HC3. We also added additional data by scraping ChatGPT answers and using human-written answers from ELI5 dataset. The model is a weighted average ensemble. It consists of a BERT model, CNN and SVM. 

@@ -6,7 +6,7 @@ from annotated_text import annotated_text
 
 st.set_page_config(page_title='GPTGone', page_icon='🚀')
 
-st.title('🪶 GPTGone Lite')
+st.title('👨‍🎓 Student hara-kiri')
 
 versions = ["Essay", "Short-Text"]
 
