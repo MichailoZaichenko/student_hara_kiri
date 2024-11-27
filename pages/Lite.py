@@ -4,7 +4,7 @@ import constants
 from annotated_text import annotated_text
 
 
-st.set_page_config(page_title='GPTGone', page_icon='🚀')
+st.set_page_config(page_title='Student hara-kiri', page_icon='🚀')
 
 st.title('👨‍🎓 Student hara-kiri')
 
@@ -93,7 +93,7 @@ if button_pressed and no_cyrillic and version == versions[1]:
 
 elif button_pressed and not no_cyrillic:
     st.error(
-        "The text contains cyrillic characters, which is not supported by GPTGone")
+        "The text contains cyrillic characters, which is not supported by Student hara-kiri")
 
 if reset_col.button('Reset'):
     written_by_ai = False
